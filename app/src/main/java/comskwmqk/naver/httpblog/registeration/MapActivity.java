@@ -64,7 +64,7 @@ public class MapActivity extends AppCompatActivity {
         search.addTextChangedListener(new TextWatcher() {
             @Override
             public void beforeTextChanged(CharSequence s, int start, int count, int after) {
-
+                //변하기전
             }
 
             @Override
@@ -75,7 +75,7 @@ public class MapActivity extends AppCompatActivity {
 
             @Override
             public void afterTextChanged(Editable s) {
-
+                //
             }
         });
 
