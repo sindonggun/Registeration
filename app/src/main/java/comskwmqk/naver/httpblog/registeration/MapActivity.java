@@ -75,7 +75,7 @@ public class MapActivity extends AppCompatActivity {
 
             @Override
             public void afterTextChanged(Editable s) {
-                //
+                //변한후
             }
         });
 
