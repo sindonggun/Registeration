@@ -1,0 +1,621 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="majorgroup">
+        <item>경영대학</item>
+        <item>공과대학</item>
+        <item>농업생명과학대학</item>
+        <item>동물생명과학대학</item>
+        <item>문화예술대학</item>
+        <item>법과대학</item>
+        <item>사범대학</item>
+        <item>사회과학대학</item>
+        <item>산림환경과학대학</item>
+        <item>수의과학대학</item>
+        <item>약학대학</item>
+        <item>의과대학</item>
+        <item>의생명과학대학</item>
+        <item>인문대학</item>
+        <item>자연과학대학</item>
+        <item>IT대학</item>
+        <item>스포츠과학부</item>
+    </string-array>
+    <string-array name="Management">
+        <item>경영학전공</item>
+        <item>회계학전공</item>
+        <item>경제학전공</item>
+        <item>국제무역학전공</item>
+        <item>관광경영학과</item>
+        <item>글로벌비즈니스학과</item>
+    </string-array>
+    <string-array name="CollegeofEngineering">
+        <item>건축학전공</item>
+        <item>건축공학전공</item>
+        <item>토목공학과</item>
+        <item>자원에너지시스템공학과</item>
+        <item>나노응용공학과</item>
+        <item>생물공학과</item>
+        <item>시스템경영공학과</item>
+        <item>환경공학과</item>
+        <item>화학공학과</item>
+        <item>기계의용공학전공</item>
+        <item>메카트로닉스공학전공</item>
+    </string-array>
+    <string-array name="CollegeofAgricultureandLifeSciences">
+        <item>농업자원경제학과</item>
+        <item>식물자원응용과학전공</item>
+        <item>응용생물학전공</item>
+        <item>바이오시스템공학전공</item>
+        <item>원예과학전공</item>
+        <item>지역건설공학과</item>
+        <item>바이오자원환경학전공</item>
+        <item>에코환경과학전공</item>
+        <item>식물생명공학과</item>
+    </string-array>
+    <string-array name="AnimalLifeScienceCollege">
+        <item>축산식품과학전공</item>
+        <item>동물생명공학전공</item>
+        <item>축산과학전공</item>
+        <item>사료생산과학전공</item>
+    </string-array>
+    <string-array name="CollegeofCultureandArts">
+        <item>디자인학과</item>
+        <item>미술학과</item>
+        <item>음악학과</item>
+        <item>무용학과</item>
+        <item>영상문화학과</item>
+        <item>스토리텔링학과</item>
+    </string-array>
+    <string-array name="CollegeofLaw">
+        <item>법학전공</item>
+    </string-array>
+    <string-array name="CollegeofEducation">
+        <item>국어교육과</item>
+        <item>영어교육과</item>
+        <item>한문교육과</item>
+        <item>교육학과</item>
+        <item>윤리교육과</item>
+        <item>역사교육과</item>
+        <item>지리교육과</item>
+        <item>일반사회교육과</item>
+        <item>수학교육과</item>
+        <item>과학교육학부</item>
+        <item>가정교육과</item>
+    </string-array>
+    <string-array name="CollegeofSocialScience">
+        <item>문화인류학과</item>
+        <item>부동산학과</item>
+        <item>사회학과</item>
+        <item>신문방송학과</item>
+        <item>심리학과</item>
+        <item>정치외교학과</item>
+        <item>행정학과</item>
+    </string-array>
+    <string-array name="CollegeofForestEnvironmentalScience">
+        <item>산림경영학전공</item>
+        <item>산림자원학전공</item>
+        <item>산림환경보호학전공</item>
+        <item>산림바이오소재공학전공</item>
+        <item>제지공학전공</item>
+        <item>생태조경디자인학과</item>
+    </string-array>
+    <string-array name="CollegeofVeterinaryScience">
+        <item>수의학과</item>
+        <item>수의예과</item>
+    </string-array>
+    <string-array name="CollegeofPharmacy">
+        <item>약학과</item>
+    </string-array>
+    <string-array name="MedicalSchool">
+        <item>간호학과</item>
+    </string-array>
+    <string-array name="UniversityofLifeSciences">
+        <item>분자생명과학과</item>
+        <item>생명건강공학전공</item>
+        <item>시스템면역과학전공</item>
+        <item>의생명공학전공</item>
+        <item>생물의소재공학과</item>
+    </string-array>
+    <string-array name="CollegeofHumanities">
+        <item>국어국문학과</item>
+        <item>영어영문학과</item>
+        <item>독어독문학과</item>
+        <item>불어불문학과</item>
+        <item>중어중문학과</item>
+        <item>사학과</item>
+        <item>철학과</item>
+        <item>일본학과</item>
+    </string-array>
+    <string-array name="CollegeofNaturalScience">
+        <item>물리학과</item>
+        <item>지질학전공</item>
+        <item>지구물리학전공</item>
+        <item>생명과학과</item>
+        <item>생화학과</item>
+        <item>화학과</item>
+        <item>수학과</item>
+        <item>정보통계학과</item>
+    </string-array>
+    <string-array name="ITuniversity">
+        <item>전기전자공학전공</item>
+        <item>전자공학전공</item>
+        <item>전자통신공학전공</item>
+        <item>컴퓨터과학전공</item>
+        <item>컴퓨터정보통신공학전공</item>
+    </string-array>
+    <string-array name="DepartmentofSportsScience">
+        <item>스포츠과학전공</item>
+        <item>스포츠지도전공</item>
+    </string-array>
+    <string-array name="major">
+            <item>경영학전공</item>
+            <item>회계학전공</item>
+            <item>경제학전공</item>
+            <item>국제무역학전공</item>
+            <item>관광경영학과</item>
+            <item>글로벌비즈니스학과</item>
+            <item>건축학전공</item>
+            <item>건축공학전공</item>
+            <item>토목공학과</item>
+            <item>자원에너지시스템공학과</item>
+            <item>나노응용공학과</item>
+            <item>생물공학과</item>
+            <item>시스템경영공학과</item>
+            <item>환경공학과</item>
+            <item>화학공학과</item>
+            <item>기계의용공학전공</item>
+            <item>메카트로닉스공학전공</item>
+            <item>농업자원경제학과</item>
+            <item>식물자원응용과학전공</item>
+            <item>응용생물학전공</item>
+            <item>바이오시스템공학전공</item>
+            <item>원예과학전공</item>
+            <item>지역건설공학과</item>
+            <item>바이오자원환경학전공</item>
+            <item>에코환경과학전공</item>
+            <item>식물생명공학과</item>
+            <item>축산식품과학전공</item>
+            <item>동물생명공학전공</item>
+            <item>축산과학전공</item>
+            <item>사료생산과학전공</item>
+            <item>디자인학과</item>
+            <item>미술학과</item>
+            <item>음악학과</item>
+            <item>무용학과</item>
+            <item>영상문화학과</item>
+            <item>스토리텔링학과</item>
+            <item>법학전공</item>
+            <item>국어교육과</item>
+            <item>영어교육과</item>
+            <item>한문교육과</item>
+            <item>교육학과</item>
+            <item>윤리교육과</item>
+            <item>역사교육과</item>
+            <item>지리교육과</item>
+            <item>일반사회교육과</item>
+            <item>수학교육과</item>
+            <item>과학교육학부</item>
+            <item>가정교육과</item>
+            <item>문화인류학과</item>
+            <item>부동산학과</item>
+            <item>사회학과</item>
+            <item>신문방송학과</item>
+            <item>심리학과</item>
+            <item>정치외교학과</item>
+            <item>행정학과</item>
+            <item>산림경영학전공</item>
+            <item>산림자원학전공</item>
+            <item>산림환경보호학전공</item>
+            <item>산림바이오소재공학전공</item>
+            <item>제지공학전공</item>
+            <item>생태조경디자인학과</item>
+            <item>수의학과</item>
+            <item>수의예과</item>
+            <item>약학과</item>
+            <item>간호학과</item>
+            <item>분자생명과학과</item>
+            <item>생명건강공학전공</item>
+            <item>시스템면역과학전공</item>
+            <item>의생명공학전공</item>
+            <item>생물의소재공학과</item>
+            <item>국어국문학과</item>
+            <item>영어영문학과</item>
+            <item>독어독문학과</item>
+            <item>불어불문학과</item>
+            <item>중어중문학과</item>
+            <item>사학과</item>
+            <item>철학과</item>
+            <item>일본학과</item>
+            <item>물리학과</item>
+            <item>지질학전공</item>
+            <item>지구물리학전공</item>
+            <item>생명과학과</item>
+            <item>생화학과</item>
+            <item>화학과</item>
+            <item>수학과</item>
+            <item>정보통계학과</item>
+            <item>전기전자공학전공</item>
+            <item>전자공학전공</item>
+            <item>전자통신공학전공</item>
+            <item>컴퓨터과학전공</item>
+            <item>컴퓨터정보통신공학전공</item>
+            <item>스포츠과학전공</item>
+            <item>스포츠지도전공</item>
+    </string-array>
+    <string-array name="graduateMajor">
+        <item>경제학원론</item>
+        <item>경영학원론</item>
+        <item>회계학원론</item>
+        <item>인적자원관리론</item>
+        <item>소비자행동</item>
+        <item>경영의사결정론</item>
+        <item>기업재무</item>
+        <item>벤처창업마케팅</item>
+        <item>국제관광론</item>
+        <item>호텔/관광서비스관리론</item>
+        <item>재무회계</item>
+        <item>무역상무론</item>
+        <item>글로벌경제론</item>
+        <item>금융경제학</item>
+        <item>마케팅이론</item>
+        <item>마케팅 커뮤니케이션</item>
+        <item>인적자원관리</item>
+        <item>대학원세미나</item>
+        <item>회계학원론</item>
+        <item>창업론</item>
+        <item>섬유과학연구</item>
+        <item>고급식품화학</item>
+        <item>교육연구방법</item>
+        <item>논문연구</item>
+        <item>한국교육정책의탐구</item>
+        <item>교육지도성의이론과실제</item>
+        <item>교육기획과프레젠테이션</item>
+        <item>학교와지역사회</item>
+        <item>교육과정및수업이론</item>
+        <item>학교학습이론</item>
+        <item>교육의철학적탐구</item>
+        <item>교육의사회학적탐구</item>
+        <item>한국교육행정문제탐구</item>
+        <item>교육학개론</item>
+        <item>교육심리</item>
+        <item>교육방법및교육공학</item>
+        <item>교육철학및교육사</item>
+        <item>교육봉사활동</item>
+        <item>교직실무</item>
+        <item>특수교육학개론</item>
+        <item>학교폭력예방및학생의이해</item>
+        <item>교육과정</item>
+        <item>국어문법연구</item>
+        <item>한국고전산문연구</item>
+        <item>문학교육연구</item>
+        <item>의사소통교육연구</item>
+        <item>물리교육세미나</item>
+        <item>과학적사고와논술</item>
+        <item>한국화연구</item>
+        <item>공예디자인연구</item>
+        <item>미술감상및비평</item>
+        <item>표현기법연구</item>
+        <item>미술교과논술연구</item>
+        <item>생활속의생물학</item>
+        <item>생태학특론</item>
+        <item>수학교육연구</item>
+        <item>위상수학</item>
+        <item>통계학</item>
+        <item>한국사연습</item>
+        <item>동양사연습</item>
+        <item>영문학교육방법론</item>
+        <item>영어교육연구</item>
+        <item>영어구조연구</item>
+        <item>한국어교재연구</item>
+        <item>외국어습득론</item>
+        <item>한국어문법론</item>
+        <item>대조언어학</item>
+        <item>한국어이해교육법</item>
+        <item>한국어문법지도법</item>
+        <item>한국어한자지도법</item>
+        <item>한국문학개론</item>
+        <item>외국어로서의한국어지도법</item>
+        <item>한국문화의이해</item>
+        <item>한국어강의참관및모의수업</item>
+        <item>현대사회주의연구</item>
+        <item>사회윤리연구</item>
+        <item>실기지도법2</item>
+        <item>한국음악연구</item>
+        <item>실기지도법3</item>
+        <item>음악논리및논술</item>
+        <item>정치학특강</item>
+        <item>사회학특강</item>
+        <item>사회과학방법론연구</item>
+        <item>일반사회논리및논술</item>
+        <item>해양지질학특론</item>
+        <item>태양계천문학</item>
+        <item>운동생리연구</item>
+        <item>체육사연구</item>
+        <item>체육교육세미나</item>
+        <item>체육심리학연구</item>
+        <item>체육측정연구</item>
+        <item>집단상담</item>
+        <item>가족상담</item>
+        <item>학교상담논리및논술</item>
+        <item>상담 수퍼비전</item>
+        <item>한문문법연구</item>
+        <item>한문학개론</item>
+        <item>한문과논리및논술</item>
+        <item>세미나</item>
+        <item>개인프로젝트 2</item>
+        <item>기후변화와 녹색성장</item>
+        <item>원예치료학</item>
+        <item>동물식품위생 및 저장</item>
+        <item>산림경영학</item>
+        <item>산림경관 및 계획</item>
+        <item>기본권론</item>
+        <item>노동법 1</item>
+        <item>법률정보조사</item>
+        <item>헌법소송법</item>
+        <item>민사소송법 1</item>
+        <item>채권법 2</item>
+        <item>상거래법</item>
+        <item>형법각론</item>
+        <item>국제거래법 2</item>
+        <item>형사특별법</item>
+        <item>산업재산권법</item>
+        <item>유가증권법</item>
+        <item>세법조사연구</item>
+        <item>경제법 2</item>
+        <item>특수불법행위법</item>
+        <item>소년법</item>
+        <item>모의재판</item>
+        <item>법사상사</item>
+        <item>기후변화와법</item>
+        <item>국제환경법</item>
+        <item>환경법세미나</item>
+        <item>도산법</item>
+        <item>검찰실무 1</item>
+        <item>형사소송실무</item>
+        <item>채권담보법</item>
+        <item>헌법사례연구</item>
+        <item>기업금융법</item>
+        <item>형법판례연구</item>
+        <item>동물법</item>
+        <item>일본민사법</item>
+        <item>민사법판례연구</item>
+        <item>행정법판례연구</item>
+        <item>소비자법이론과실무</item>
+        <item>우주법</item>
+        <item>행정법 1</item>
+        <item>행정법 2</item>
+        <item>민사법이론과실무</item>
+        <item>현대사회와가족법정책</item>
+        <item>민법사례연구 2</item>
+        <item>형사증거법</item>
+        <item>보전소송실무</item>
+        <item>로여링</item>
+        <item>통합기록작성실무</item>
+        <item>환경에니지법클리닉</item>
+        <item>건축구조및해석연구</item>
+        <item>개별연구</item>
+        <item>건축음향론</item>
+        <item>주거단지계획</item>
+        <item>동양건축사연구</item>
+        <item>풍력발전특론</item>
+        <item>동역학원리와응용</item>
+        <item>응용기계설계1</item>
+        <item>생체신호처리</item>
+        <item>시각디자인2</item>
+        <item>포장디자인특론</item>
+        <item>산업공학특론1</item>
+        <item>시스템공학</item>
+        <item>미생물의생리</item>
+        <item>미생물의유전</item>
+        <item>금속조직학특론</item>
+        <item>무기재료물성</item>
+        <item>전자회로특론</item>
+        <item>마이크로센서공학특론</item>
+        <item>디지털시스템설계</item>
+        <item>컴퓨터네트워크특론</item>
+        <item>정보보호관리체계</item>
+        <item>소프트웨어테스팅표준</item>
+        <item>구조해석특론</item>
+        <item>토질공학특론</item>
+        <item>토지정보체제</item>
+        <item>반응공학특론</item>
+        <item>공업촉매화학특론</item>
+        <item>연구입문</item>
+        <item>기초면역학</item>
+        <item>기생축학 및 실습</item>
+        <item>분자유전학</item>
+        <item>미생물학 및 실습</item>
+        <item>약리학 및 실습</item>
+        <item>예방의학 및 실습</item>
+        <item>병리학 및 실습</item>
+        <item>감염학</item>
+        <item>성장과 발달</item>
+        <item>임상신경학</item>
+        <item>혈액종양학</item>
+        <item>근육골격계학</item>
+        <item>내분비학</item>
+        <item>생식의학</item>
+        <item>신장비노기계학</item>
+        <item>정신의학</item>
+        <item>피부감각기학</item>
+        <item>과정기술</item>
+        <item>정신과학 실습</item>
+        <item>산부인과학 실습</item>
+        <item>소아과학 실습</item>
+        <item>임상실기시험 2</item>
+        <item>응급의학 실습</item>
+        <item>기본의학종합평가 1</item>
+        <item>기본의학종합평가 2</item>
+        <item>증례중심실습 2</item>
+        <item>보완통합의학</item>
+        <item>학생인턴 1</item>
+        <item>학생인턴 2</item>
+        <item>DMH1</item>
+        <item>DMH3</item>
+        <item>사회계급과 건강</item>
+        <item>임상수기 종합평가</item>
+        <item>임상의학종합평가 2</item>
+        <item>임상의학종합평가 3</item>
+        <item>토지정책론</item>
+        <item>부동산정보관리</item>
+        <item>감정평가론</item>
+        <item>부동산경매 및 공매</item>
+        <item>상담 및 심리치료 이론</item>
+        <item>이상심리학</item>
+        <item>청소년상담의 이론과 실제</item>
+        <item>코칭심리프로그램개발</item>
+        <item>산업 및 조직심리학</item>
+        <item>정보사회론</item>
+        <item>국제커뮤니케이션</item>
+        <item>매체경영론</item>
+        <item>사이버보안 개론</item>
+        <item>정보통신의 응용</item>
+        <item>인터넷과 웹응용</item>
+        <item>정보처리특강 1</item>
+        <item>환경정보시스템</item>
+        <item>도시정보시스템</item>
+        <item>공간분석론</item>
+        <item>지리정보특강 2</item>
+        <item>정보통신정책론</item>
+        <item>정보사회와철학</item>
+        <item>인사행정론</item>
+        <item>행정계량분석</item>
+        <item>의회론</item>
+        <item>지방행정론</item>
+        <item>정책분석평가론</item>
+    </string-array>
+    <string-array name="universityRefinementMajor">
+        <item>글쓰기와말하기</item>
+        <item>의사소통영어</item>
+        <item>의사소통영어2</item>
+        <item> 과학기술과수학-과학과기술</item>
+        <item>멀티미디어컨텐츠제작-과학과기술</item>
+        <item>생명현상의이해-과학과기술</item>
+        <item>생활물리-과학과기술</item>
+        <item>생활속의미생물-과학과기술</item>
+        <item>웹과인터넷활용및실습-과학과기술</item>
+        <item>인간과환경-과학과기술</item>
+        <item>자연과학의이해-과학과기술</item>
+        <item>자연재해와인류의미래-과학과기술</item>
+        <item>자원과환경-과학과기술</item>
+        <item>컴퓨터개론및실습-과학과기술</item>
+        <item>컴퓨터활용-과학과기술</item>
+        <item>개인과국가-사회와문화</item>
+        <item>기업과경영-사회와문화</item>
+        <item>다문화사회의이해-사회와문화</item>
+        <item>매스컴과사회-사회와문화</item>
+        <item>문학인류학의이해-사회와문화</item>
+        <item>법학의이해-사회와문화</item>
+        <item>북한및통일문제의이해-사회와문화</item>
+        <item>사회학의이해-사회와문화</item>
+        <item>생활법률-사회와문화</item>
+        <item>성과사회-사회와문화</item>
+        <item>세계경제와국제관계(외국어강의)-사회와문화</item>
+        <item>시장과경제-사회와문화</item>
+        <item>심리학의이해-사회와문화</item>
+        <item>전쟁과평화-사회와문화</item>
+        <item>젊은이의삶과인권-사회와문화</item>
+        <item>지리와인간생활-사회와문화</item>
+        <item>행정학의이해-사회와문화</item>
+        <item>현대사회와시민교육-사회와문화</item>
+        <item>논리와추리-수리적사고</item>
+        <item>생활속의수학-수리적사고</item>
+        <item>생활속의회계-수리적사고</item>
+        <item>수리적추론-수리적사고</item>
+        <item>수학적사고법-수리적사고</item>
+        <item>자료와정보-수리적사고</item>
+        <item>컴퓨터프로그래밍기초-수리적사고</item>
+        <item>교양한문-언어와문학</item>
+        <item>기초일본어2-언어와문학</item>
+        <item>다매체시대의언어생활-언어와문학</item>
+        <item>동아시아문학의이해-언어와문학</item>
+        <item>생활독일어2-언어와문학</item>
+        <item>생활러시아어-언어와문학</item>
+        <item>생활스페인어-언어와문학</item>
+        <item>생활프랑스어2(외국어강의)-언어와문학</item>
+        <item>시사영어-언어와문학</item>
+        <item>영상프랑스어-언어와문학</item>
+        <item>유럽명작읽기-언어와문학</item>
+        <item>유럽의신화와전설-언어와문학</item>
+        <item>인문학고전읽기와토론-언어와문학</item>
+        <item>인터넷입문중국어2-언어와문학</item>
+        <item>일본어회화2(외국어강의)-언어와문학</item>
+        <item>토익-언어와문학</item>
+        <item>한자와생활언어-언어와문학</item>
+        <item>현대인의문학과삶-언어와문학</item>
+        <item>강원사상과문화-역사와철학</item>
+        <item>동서문화교류사-역사와철학</item>
+        <item>동양의역사와문화-역사와철학</item>
+        <item>미의의미-역사와철학</item>
+        <item>미주의역사와문화-역사와철학</item>
+        <item>사랑과죽음-역사와철학</item>
+        <item>서양의역사와문화-역사와철학</item>
+        <item>성과철학-역사와철학</item>
+        <item>외국인을위한한국사-역사와철학</item>
+        <item>인간과윤리-역사와철학</item>
+        <item>종교와문화-역사와철학</item>
+        <item>창의-비판적사고와표현-역사와철학</item>
+        <item>한국근현대사의이해-역사와철학</item>
+        <item>한국문화유산산책-역사와철학</item>
+        <item>한국의역사와문화-역사와철학</item>
+        <item>현대사회와윤리-역사와철학</item>
+        <item>힐링철학-역사와철학</item>
+        <item>극예술의이해-예술과건강</item>
+        <item>대학생의건강관리-예술과건강</item>
+        <item>디자인과생활-예술과건강</item>
+        <item>무용의이해-예술과건강</item>
+        <item>문학과영화-예술과건강</item>
+        <item>미술과애니메이션-예술과건강</item>
+        <item>미술의이해-예술과건강</item>
+        <item>생활과건강(웰리스를위한맞춤형운동방법)-예술과건강</item>
+        <item>서양음악의이해-예술과건강</item>
+        <item>스포츠와건강(축구)-예술과건강</item>
+        <item>스포츠와레저(집중수업)-예술과건강</item>
+        <item>식생활과건강-예술과건강</item>
+        <item>영상의이해-예술과건강</item>
+        <item>유럽문화와예술-예술과건강</item>
+        <item>인간생명과질병-예술과건강</item>
+        <item>정신건강-예술과건강</item>
+        <item>글로벌리더십(셀프리더십)</item>
+        <item>대학생을위한학습전략</item>
+        <item>사회봉사</item>
+        <item>취업역량2</item>
+        <item>현장실습</item>
+        <item>과학과기술로본세계사</item>
+        <item>문화콘텐츠와영상문화</item>
+        <item>물과인류사회</item>
+        <item>세계명저속의사랑</item>
+        <item>실사구시파노라마</item>
+        <item>영토분쟁의과거와현재</item>
+        <item>웰빙건강휴양학</item>
+        <item>인문학과치유</item>
+        <item>지구촌의위기와국제협력</item>
+        <item>현대생명과학과생명철학</item>
+        <item>선형대수</item>
+        <item>이산수학</item>
+        <item>확률및통계</item>
+    </string-array>
+    <string-array name="year">
+        <item>2017년도</item>
+    </string-array>
+    <string-array name="term">
+        <item>1학기</item>
+        <item>여름학기</item>
+        <item>2학기</item>
+        <item>겨울학기</item>
+    </string-array>
+    <string-array name="graduateArea">
+        <item>일반대학원</item>
+    </string-array>
+    <string-array name="universityArea">
+        <item>전공</item>
+        <item>교양및기타</item>
+    </string-array>
+    <string-array name="rank">
+        <item>전체에서</item>
+        <item>우리과에서</item>
+        <item>남자선호도</item>
+        <item>여자선호도</item>
+        <item>전공인기도</item>
+        <item>교양인기도</item>
+    </string-array>
+</resources>

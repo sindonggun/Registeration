@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/space">
+
+    <comskwmqk.naver.httpblog.registeration.CircleImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/logo"
+        android:id="@+id/circleimageView"
+        app:civ_border_color="@color/colorPrimary"
+        app:civ_border_width="2dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+    <comskwmqk.naver.httpblog.registeration.CircleImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/login"
+        android:id="@+id/loginimageView"
+        app:civ_border_color="@color/colorPrimary"
+        app:civ_border_width="2dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_above="@+id/circleimageView"
+        android:layout_toLeftOf="@+id/circleimageView"
+        android:layout_toStartOf="@+id/circleimageView" />
+    <comskwmqk.naver.httpblog.registeration.CircleImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/apinfo"
+        android:id="@+id/infoimageView"
+        app:civ_border_color="@color/colorPrimary"
+        app:civ_border_width="2dp"
+        android:layout_above="@+id/circleimageView"
+        android:layout_alignLeft="@+id/circleimageView"
+        android:layout_alignStart="@+id/circleimageView"
+        android:layout_marginBottom="35dp" />
+    <comskwmqk.naver.httpblog.registeration.CircleImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/server"
+        android:id="@+id/serverimageView"
+        app:civ_border_color="@color/colorPrimary"
+        app:civ_border_width="2dp"
+        android:layout_above="@+id/circleimageView"
+        android:layout_toRightOf="@+id/circleimageView"
+        android:layout_toEndOf="@+id/circleimageView"
+        android:layout_marginLeft="24dp"
+        android:layout_marginStart="24dp" />
+    <comskwmqk.naver.httpblog.registeration.CircleImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/knucafe"
+        android:id="@+id/cafeimageView"
+        app:civ_border_color="@color/colorPrimary"
+        app:civ_border_width="2dp"
+        android:layout_below="@+id/circleimageView"
+        android:layout_toLeftOf="@+id/circleimageView"
+        android:layout_toStartOf="@+id/circleimageView" />
+    <comskwmqk.naver.httpblog.registeration.CircleImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/building"
+        android:id="@+id/buildingimageView"
+        app:civ_border_color="@color/colorPrimary"
+        app:civ_border_width="2dp"
+        android:layout_below="@+id/circleimageView"
+        android:layout_toRightOf="@+id/circleimageView"
+        android:layout_toEndOf="@+id/circleimageView" />
+</RelativeLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#87ceeb</color>
+    <color name="colorPrimaryDark">#4682B4</color>
+    <color name="colorAccent">#000000</color>
+    <color name="colorWarning">#ff0000</color>
+    <color name="colorGray">#808080</color>
+    <color name="colormaroon">#98FB98</color>
+    <color name="coloraqua">#008080</color>
+    <color name="colorDanger">#8324FF</color>
+    <color name="colorRead">#FF1212</color>
+    <color name="colorSafe">#08C904</color>
+    <color name="colorWinner">#FFD700</color>
+    <color name="colorsnow">#FFFAFA</color>
+
+</resources>
