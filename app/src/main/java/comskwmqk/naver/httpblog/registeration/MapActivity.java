@@ -83,9 +83,11 @@ public class MapActivity extends AppCompatActivity {
     }
     public void searchUser(String search){
         mapList.clear();
+        //리스트초기화
         for (int i=0;i<saveList.size();i++){
             if(saveList.get(i).getName().contains(search)){
                 mapList.add(saveList.get(i));
+                //값생성
             }
         }
         //값변경
